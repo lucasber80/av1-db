@@ -1,14 +1,13 @@
-const Tuple = require("./tuple.js")
+const Tuple = require("./tuple.js");
 
-class Page{
-    constructor(){
-        this.tuples = [];
-      
-    }
+class Page {
+  constructor() {
+    this.tuples = [];
+  }
 
-    addTuple(key,data){
-        this.tuples.push(new Tuple(key,data))
-    }
+  addTuple(key, data) {
+    this.tuples.push(new Tuple(key, data));
+  }
 }
 
-module.exports = Page
+module.exports = Page;

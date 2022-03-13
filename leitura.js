@@ -1,8 +1,8 @@
-const fs = require('fs')
+const fs = require("fs");
 
-module.exports = function(){
+module.exports = function () {
   var dados = [];
-  const data = fs.readFileSync('./documento.txt', 'utf8');
+  const data = fs.readFileSync("./documento.txt", "utf8");
   dados = data.split("\n");
   return dados;
 };

@@ -1,8 +1,8 @@
-class Tuple{
-    constructor(id,data){
-        this.id = id;
-        this.data = data;
-    }
+class Tuple {
+  constructor(id, data) {
+    this.id = id;
+    this.data = data;
+  }
 }
 
-module.exports = Tuple
+module.exports = Tuple;
